@@ -1,9 +1,8 @@
-module github.com/pffreitas/rmqprom
+module github.com/chrisUsick/rmqprom
 
 go 1.13
 
 require (
-	github.com/adjust/rmq/v3 v3.0.0
-	github.com/onsi/gomega v1.10.0 // indirect
-	github.com/prometheus/client_golang v1.6.0
+	github.com/adjust/rmq/v4 v4.0.5
+	github.com/prometheus/client_golang v1.13.0
 )
